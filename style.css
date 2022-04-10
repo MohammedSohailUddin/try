@@ -5,7 +5,7 @@
     font-family: 'Roboto Slab', serif;
 }
 a{
-    margin-top: 1rem;
+    /*margin-top: 1rem;*/
 }
 .navbar-brand{
     font-size: 5px;
@@ -24,7 +24,7 @@ a{
     padding-left: 35px;
 }
 .btn0{
-    margin-top: 1rem;
+    /*margin-top: 1rem;*/
     height: 52px;
     width: 130px;
     outline: none;
@@ -38,9 +38,9 @@ a{
     background-color: rgb(214,11,11);
     transition: all 0.4s;
 }
-
+  
 .btn1{
-    margin-top: 1rem;
+    /*margin-top: 1rem;*/
     height: 52px;
     width: 130px;
     outline: none;
@@ -63,7 +63,7 @@ a{
 
 }
 .main{
-    min-height: 80vh;
+    min-height: 100vh;
     width: 100%;
     float: right;
 }
@@ -73,9 +73,9 @@ a{
     color: rgb(7, 7, 78);
 }
 .main input{
-    background-color: #b3d9ff;
+    background-color: #ccf3ff;
     height: 60px;
-    width: 80%;
+    width: 70%;
     border: none;
     outline: none;
     padding: 15px;
@@ -98,13 +98,13 @@ a{
 
 /*how it works*/
 .workflow{
-    background-color: white;
+    background-color: #ffe6e6;
     background-size: cover;
     min-height: 100vh;
     width: 100%;
 }
 .workflow h1{
-    
+    color: rgb(7, 7, 78);
     font-size: 5rem;
     font-weight: 700;
     padding-left: 8rem;
@@ -125,14 +125,58 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #e6f9ff;
 }
 img{
     max-width: 100%;
+
 }
 .img{
     flex-basis: 50%;
     order: 2;
+
 }
 .text{
     padding-left: 20px;
+}
+.typing{
+    height: 18rem;
+    width: 38rem;
+}
+span{
+    color: rgb(243, 73, 73);
+}
+
+.apply{
+    background: url("./media/cool.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.apply .card{
+    background-color: rgb(4,26,100,0.801);
+    color: white;
+} 
+.cir1{
+    height: 100px;
+    width: 100px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.cir1 img{
+    border-radius: 50%;
+}
+.apply h1{
+    color: white;
+}
+.card-body h2{
+    padding-top: 1rem;
+}
+.card-body p{
+    padding-top: 2rem;
+}
+.card{
+    margin-left: 1rem;
+    background: transparent;
 }
